@@ -1,0 +1,87 @@
+/* Base Styles */
+[data-scope='avatar'][data-part='root'] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-weight: 500;
+  vertical-align: top;
+  user-select: none;
+  flex-shrink: 0;
+
+  width: var(--avatar-size, 40px);
+  height: var(--avatar-size, 40px);
+  font-size: var(--avatar-font-size, 1rem);
+  border-radius: var(--avatar-radius, 9999px);
+}
+
+[data-scope='avatar'][data-part='image'] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--avatar-radius, 9999px);
+}
+
+[data-scope='avatar'][data-part='fallback'] {
+  font-size: var(--avatar-font-size, 1rem);
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  border-radius: var(--avatar-radius, 9999px);
+}
+
+/* Sizes */
+.avatar--xs {
+  --avatar-size: 2rem;
+  --avatar-font-size: 0.75rem;
+}
+
+.avatar--sm {
+  --avatar-size: 2.25rem;
+  --avatar-font-size: 0.875rem;
+}
+
+.avatar--md {
+  --avatar-size: 2.5rem;
+  --avatar-font-size: 1rem;
+}
+
+.avatar--lg {
+  --avatar-size: 2.75rem;
+  --avatar-font-size: 1rem;
+}
+
+.avatar--xl {
+  --avatar-size: 3rem;
+  --avatar-font-size: 1.125rem;
+}
+
+/* Shapes */
+.avatar--rounded {
+  --avatar-radius: 12px;
+}
+
+.avatar--square {
+  --avatar-radius: 0px;
+}
+
+.avatar--full {
+  --avatar-radius: 9999px;
+}
+
+/* Variants */
+.avatar--subtle {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+.avatar--solid {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.avatar--outline {
+  background-color: transparent;
+  color: #4f46e5;
+  border: 1px solid #e0e7ff;
+}
