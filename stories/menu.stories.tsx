@@ -1,6 +1,7 @@
 import { Menu } from '@ark-ui/react/menu';
 import type { StoryObj } from '@storybook/react-vite';
 import './menu.css';
+import './button.css';
 
 const meta = {
   title: 'Menu',
@@ -14,11 +15,11 @@ export const Size: Story = {
     return (
       <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
         <Menu.Root>
-          <Menu.Trigger>
+          <Menu.Trigger className='button button--variant-outline button--size-md'>
             Open menu <Menu.Indicator>➡️</Menu.Indicator>
           </Menu.Trigger>
           <Menu.Positioner>
-            <Menu.Content>
+            <Menu.Content className='menu--subtle menu--md'>
               <Menu.Item value='react'>React</Menu.Item>
               <Menu.Item value='solid'>Solid</Menu.Item>
               <Menu.Item value='vue'>Vue</Menu.Item>
