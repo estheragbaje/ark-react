@@ -1,0 +1,42 @@
+:root {
+  --bg: #fff;
+  --bg-subtle: #f9fafb;
+  --bg-muted: #f3f4f6;
+  --bg-emphasized: #e5e7eb;
+  --bg-inverted: #000;
+  --bg-panel: #fff;
+  --bg-error: #fef2f2;
+  --bg-warning: #fff7ed;
+  --bg-success: #f0fdf4;
+  --bg-info: #eff6ff;
+  --border: #e5e7eb;
+  --border-muted: #f3f4f6;
+  --border-subtle: #f9fafb;
+  --border-emphasized: #d1d5db;
+  --border-inverted: #1f2937;
+  --border-error: #ef4444;
+  --border-warning: #f59e42;
+  --border-success: #22c55e;
+  --border-info: #3b82f6;
+  --fg: #000000;
+  --fg-muted: #4b5563;
+  --fg-subtle: #9ca3af;
+  --fg-inverted: #f9fafb;
+  --fg-error: #ef4444;
+  --fg-warning: #ea580c;
+  --fg-success: #16a34a;
+  --fg-info: #2563eb;
+  --accent-contrast: #000;
+  --accent-fg: #c2410c;
+  --accent-subtle: #ffedd5;
+  --accent-muted: #fed7aa;
+  --accent-emphasized: #fdba74;
+  --accent-solid: #ea580c;
+  --accent-focusRing: #fb923c;
+
+  --shadow-sm: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  --shadow-md: 0 4px 8px -2px rgba(16, 24, 40, 0.18),
+    0 1.5px 4px rgba(16, 24, 40, 0.14);
+  --shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.18),
+    0 1.5px 4px rgba(16, 24, 40, 0.08);
+}
